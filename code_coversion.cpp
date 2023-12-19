@@ -1,8 +1,5 @@
 
-#include <string>
-
-class Data {
-public:
-    std::string firstname;
-    std::string lastname;
-};
+class Data:
+    def __init__(self):
+        self.firstname = ""
+        self.lastname = ""

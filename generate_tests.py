@@ -1,4 +1,6 @@
 #importer de nødvendige bibliotekene
+import os
+from azure.identity import ClientSecretCredential
 
 
 def Get_PowerBI_Token():
